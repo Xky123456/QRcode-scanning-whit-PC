@@ -1,6 +1,3 @@
-import cv2
-import time
-from selenium import webdriver
 import webbrowser
 from pyzbar.pyzbar import decode
 from PIL import Image
