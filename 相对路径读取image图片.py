@@ -2,13 +2,8 @@ import cv2
 import time
 from selenium import webdriver
 import webbrowser
-import sys
 from pyzbar.pyzbar import decode
-from webbrowser import Chrome
 from PIL import Image
-import zxing
-import os
-
 
 
 
