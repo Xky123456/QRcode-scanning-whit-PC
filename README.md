@@ -1,10 +1,14 @@
 # QRcode-scanning-whit-PC
-这是一个电脑端的二维码扫描程序，目前需要python编译器才能运行，且有缺陷<br>
-This is a two-dimensional code scanning program on the computer side, which currently requires a python compiler to run, and it is defective<br>
+这是一个电脑端的二维码扫描程序，且拥有绝对路径与相对路径两种读取图片方式，即使你没有python37，也可以双击根目录的bat文件运行<br>
+This is a two-dimensional code scanning program on the computer side, and it has two ways to read images: absolute path and relative path. Even if you don't have python37, you can double-click the bat file in the root directory to run<br>
 
-### 如何使用？How to use？
-相对路径在同路径下image文件中<br>
-The relative path is in the image folder under the same path<br>
+<br>
+
+## 如何使用相对路径？How do I use relative paths?<br>
+您可以选择将图片复制到“image”文件夹内，随后运行“相对路径读取image图片.bat”程序，按照步骤输入文件名与文件后缀即可<br>
+You can choose to copy the picture to the "image" folder, and then run the "相对路径读取image图片.bat" program. Enter the file name and file suffix according to the steps<br>
+
+<br>
 
 ### 如何导入库？How do I import libraries?
 在python/Lib/site-packages路径中复制”其中所依赖的库“里的文件即可<br>
@@ -19,6 +23,4 @@ Copy the files in the "dependent libraries" in the python/lib/site packages path
 <br>
 
 
-###### PS:
-我不知道为什么打包后运行会有报错问题，希望有大佬能帮我解决一下，谢谢<br>
-I don't know why there will be an error report after packaging. I hope someone can help me solve it. Thank you<br>
+
